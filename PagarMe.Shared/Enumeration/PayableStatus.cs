@@ -9,6 +9,7 @@ namespace PagarMe
         [Base.EnumValue("waiting_funds")]
         WaitingFunds,
         [Base.EnumValue("paid")] Paid,
+        [Base.EnumValue("prepaid")] Prepaid,
         [Base.EnumValue("suspended")] Suspended
     }
 }
